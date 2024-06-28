@@ -1,10 +1,10 @@
 import streamlit as st
-import numpy as np
-from PIL import Image
-from ultralytics import YOLO
-import time
-import torch
-import cv2
+# import numpy as np
+# from PIL import Image
+# from ultralytics import YOLO
+# import time
+# import torch
+# import cv2
 
 # Загрузка предобученной модели YOLOv8
 model = YOLO('yolov8n.pt')  # Используйте 'yolov8n.pt' или другую версию модели
