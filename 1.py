@@ -9,7 +9,7 @@ import itertools
 
 # Load YOLOv8 models
 model_np = YOLO("https://github.com/SaerPow/Streamlite_DEMO2/blob/master/np_last%20(last).pt")  # Change the path as per your model location
-model_char = YOLO("D:/PycharmProjects/Streamlit/let_last.pt")  # Path to the new YOLOv8 character model
+model_char = YOLO("https://github.com/SaerPow/Streamlite_DEMO2/blob/master/let_last.pt")  # Path to the new YOLOv8 character model
 # Check if GPU is available and move model to GPU if possible
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 model_np.to(device)
